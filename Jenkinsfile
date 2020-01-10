@@ -12,8 +12,7 @@ pipeline {
       steps {
         script {
           sh "mvn sonar:sonar \
-          -Dsonar.host.url=https://sonarqube-myproject-manargis.osp-apps.k4it.xyz \
-          -Dsonar.login=f91bc8237ef41633899676913e3fc61d481540b5"
+          -Dsonar.host.url=https://sonarqube-sonarqube-jacoco.osp-apps.k4it.xyz -Dsonar.login=9c3d6605fe29b8ea4c20532ca34cd27bb9581220"
          }
       }
     }
